@@ -1392,9 +1392,7 @@ footer a {
     height: fit-content !important;
     padding: 10px 5px !important;
   }
-  .comment.ans {
-    padding-left: 0;
-  }
+
   h1 {
     border-left: 0 !important;
     border-right: 3px solid #f72210;
@@ -1420,10 +1418,16 @@ footer a {
   }
   .content .image.horizontal,
   .content .image.vertical {
-    max-width: 60%;
+    max-width: 100%;
     margin: 0;
     margin-bottom: 27px;
     margin-left: auto;
+  }
+  .social span {
+    margin-right: 0;
+  }
+  .social {
+    margin-top: 30px;
   }
   p {
     font-size: 16px;
@@ -1432,4 +1436,7 @@ footer a {
   .content .image {
     border-top: 0;
   }
+}
+.grey_list span {
+  display: inline;
 }
